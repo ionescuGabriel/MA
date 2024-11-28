@@ -167,7 +167,7 @@ fun add(viewModel: albumViewModel, onRecipeCreated: () -> Unit, navController: N
                     catch (e: NumberFormatException)
                     {
                         isErr = true
-                        errMessage = "release must be a positive integer. realease must be between 1 and 100"
+                        errMessage = "release must be a positive integer. rating must be between 1 and 100"
                     }
                 }
             }
