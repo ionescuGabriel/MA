@@ -4,6 +4,8 @@ import 'Screens/browser.dart';
 
 void main()
 {
+  WidgetsFlutterBinding.ensureInitialized();
+
   runApp(const MaterialApp(
       home: MyMainScreen()
   )
